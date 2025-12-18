@@ -71,9 +71,6 @@ issue-tracker/
 ├── .gitignore
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🔁 Workflow
