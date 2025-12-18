@@ -1,60 +1,7 @@
-<img width="1284" height="204" alt="image" src="https://github.com/user-attachments/assets/9770f337-c535-4691-a477-b6ee70461668" /># 🛠️ Issue Tracking & Workflow Management System
-
-A role-based issue tracking system built to manage, assign, and resolve civic or organizational issues through a structured workflow.  
-The project focuses on backend architecture, workflow enforcement, and clean separation of concerns, with a lightweight frontend to demonstrate end-to-end flow.
-
----
-
-## 📌 Overview
-
-This system enables multiple user roles to interact with issues in a controlled and transparent manner:
-
-- 👤 Users can report issues  
-- 🧑‍💼 Admins assign issues to staff  
-- 🧑‍🔧 Staff update issue status until resolution  
-
-The backend is implemented using **Core Java and JDBC** with **PostgreSQL** for data persistence.  
-A simple frontend built using **HTML, CSS, Bootstrap, and JavaScript** simulates the workflow and is structured to be API-ready for future integration.
-
----
-
-## ✨ Key Features
-
-- 🔐 Role-based workflow (USER, ADMIN, STAFF)
-- 🔄 Complete issue lifecycle management
-- 🧱 Layered backend architecture
-- 🗄️ PostgreSQL database with foreign key constraints
-- 📝 Audit logging for issue actions
-- 💻 Console-based backend execution
-- 🌐 Frontend workflow simulation using JavaScript
-
----
-
-## 🧰 Tech Stack
-
-### Backend
-- ☕ Core Java  
-- 🔗 JDBC  
-- 🐘 PostgreSQL  
-
-### Frontend
-- 🧾 HTML  
-- 🎨 CSS  
-- 🅱️ Bootstrap  
-- ⚙️ JavaScript  
-
-### Tools
-- 🧠 IntelliJ IDEA  
-- 🌱 Git & GitHub  
-
----
-
-## 🏗️ Project Structure
-
 # 🛠️ Issue Tracking & Workflow Management System
 
 A role-based issue tracking system built to manage, assign, and resolve civic or organizational issues through a structured workflow.  
-The project focuses on backend architecture, workflow enforcement, and clean separation of concerns, with a lightweight frontend to demonstrate end-to-end flow.
+The project emphasizes backend architecture, workflow enforcement, and clean separation of concerns, with a lightweight frontend to demonstrate end-to-end functionality.
 
 ---
 
@@ -67,7 +14,7 @@ This system enables multiple user roles to interact with issues in a controlled 
 - 🧑‍🔧 Staff update issue status until resolution  
 
 The backend is implemented using **Core Java and JDBC** with **PostgreSQL** for data persistence.  
-A simple frontend built using **HTML, CSS, Bootstrap, and JavaScript** simulates the workflow and is structured to be API-ready for future integration.
+A simple frontend built with **HTML, CSS, Bootstrap, and JavaScript** simulates the workflow and is structured to be API-ready for future backend integration.
 
 ---
 
@@ -123,6 +70,9 @@ issue-tracker/
 │
 ├── .gitignore
 └── README.md
+
+yaml
+Copy code
 
 ---
 
