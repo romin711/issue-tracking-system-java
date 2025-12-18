@@ -1,4 +1,4 @@
-# 🛠️ Issue Tracking & Workflow Management System
+<img width="1284" height="204" alt="image" src="https://github.com/user-attachments/assets/9770f337-c535-4691-a477-b6ee70461668" /># 🛠️ Issue Tracking & Workflow Management System
 
 A role-based issue tracking system built to manage, assign, and resolve civic or organizational issues through a structured workflow.  
 The project focuses on backend architecture, workflow enforcement, and clean separation of concerns, with a lightweight frontend to demonstrate end-to-end flow.
