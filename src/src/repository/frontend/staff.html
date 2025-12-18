@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Staff Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-5">
+
+<h3 class="mb-4">Staff – Update Issue Status</h3>
+
+<div class="mb-3">
+    <label class="form-label">Issue ID</label>
+    <input type="number" id="issueId" class="form-control">
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Status</label>
+    <select id="status" class="form-select">
+        <option>IN_PROGRESS</option>
+        <option>RESOLVED</option>
+    </select>
+</div>
+
+<button class="btn btn-success" onclick="updateStatusUI()">Update Status</button>
+<a href="index.html" class="btn btn-secondary ms-2">Back</a>
+
+<script src="js/app.js"></script>
+<script>
+    function updateStatusUI() {
+        const issueId = parseInt(document.getElementById("issueId").value);
+        const status = document.getElementById("status").value;
+
+        const result = updateStatus(issueId, status);
+
+        if (!result) {
+            alert("Issue not found");
+        } else {
+            alert("Status updated successfully");
+        }
+    }
+</script>
+
+</body>
+</html>
